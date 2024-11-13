@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./style2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather Forecast</h1>
+      <div class="weather-card">
+        <h2>Today's Weather</h2>
+        <form id="form">
+          <input type="text" id="search" placeholder="your location" />
+        </form>
+        <div id="results" class="city-container"></div>
+        <main id="main"></main>
+        <div class="weather-info"></div>
+      </div>
+    </div>
+    <script src="./cities.js" type="module"></script>
+    <script src="./script2.js" type="module"></script>
+  </body>
+</html>
